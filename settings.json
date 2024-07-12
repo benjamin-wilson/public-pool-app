@@ -1,0 +1,14 @@
+{
+    "BITCOIN_RPC_URL": "http://192.168.1.49",
+    "BITCOIN_RPC_USER": "",
+    "BITCOIN_RPC_PASSWORD": "",
+    "BITCOIN_RPC_PORT": "8332",
+    "BITCOIN_RPC_TIMEOUT": "10000",
+    "BITCOIN_RPC_COOKIEFILE": "",
+
+    "API_PORT": "3334",
+    "STRATUM_PORT": "3333",
+
+    "NETWORK": "mainnet",
+    "API_SECURE": false
+}

@@ -1,0 +1,30 @@
+{
+  "name": "public-pool-app",
+  "version": "1.0.0",
+  "description": "Electron Bitcoin Server And GUI",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron-forge start",
+    "download": "git clone https://github.com/benjamin-wilson/public-pool.git && git clone https://github.com/benjamin-wilson/public-pool-ui.git",
+    "install": "cd public-pool && npm install && cd ../public-pool-ui && npm install",
+    "build": "cd public-pool && npm run build && npm prune --production && cd ../public-pool-ui && npm run build:electron",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "author": "Benjamin Wilson",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.1"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.4.0",
+    "@electron-forge/maker-deb": "^7.4.0",
+    "@electron-forge/maker-rpm": "^7.4.0",
+    "@electron-forge/maker-squirrel": "^7.4.0",
+    "@electron-forge/maker-zip": "^7.4.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.4.0",
+    "@electron-forge/plugin-fuses": "^7.4.0",
+    "@electron/fuses": "^1.8.0",
+    "electron": "^31.2.0"
+  }
+}

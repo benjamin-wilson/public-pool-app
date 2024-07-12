@@ -1,0 +1,1459 @@
+[32m[Nest] 9452  - [39m07/11/2024, 9:10:15 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 9452  - [39m07/11/2024, 9:10:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +108ms[39m
+[32m[Nest] 9452  - [39m07/11/2024, 9:10:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mHttpModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 9452  - [39m07/11/2024, 9:10:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCacheModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9452  - [39m07/11/2024, 9:10:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9452  - [39m07/11/2024, 9:10:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDiscoveryModule dependencies initialized[39m[38;5;3m +3ms[39m
+[32m[Nest] 9452  - [39m07/11/2024, 9:10:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 9452  - [39m07/11/2024, 9:10:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mScheduleModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 9452  - [39m07/11/2024, 9:10:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +52ms[39m
+[32m[Nest] 9452  - [39m07/11/2024, 9:10:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9452  - [39m07/11/2024, 9:10:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9452  - [39m07/11/2024, 9:10:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9452  - [39m07/11/2024, 9:10:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9452  - [39m07/11/2024, 9:10:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 9452  - [39m07/11/2024, 9:10:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9452  - [39m07/11/2024, 9:10:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mClientStatisticsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9452  - [39m07/11/2024, 9:10:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mClientModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9452  - [39m07/11/2024, 9:10:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAddressSettingsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9452  - [39m07/11/2024, 9:10:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTelegramSubscriptionsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9452  - [39m07/11/2024, 9:10:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBlocksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9452  - [39m07/11/2024, 9:10:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mRpcBlocksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9452  - [39m07/11/2024, 9:10:16 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +3ms[39m
+[32m[Nest] 9452  - [39m07/11/2024, 9:10:16 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/api}:[39m[38;5;3m +58ms[39m
+[32m[Nest] 9452  - [39m07/11/2024, 9:10:16 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/info, GET} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 9452  - [39m07/11/2024, 9:10:16 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/pool, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 9452  - [39m07/11/2024, 9:10:16 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/network, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 9452  - [39m07/11/2024, 9:10:16 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/info/chart, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 9452  - [39m07/11/2024, 9:10:16 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mClientController {/api/client}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 9452  - [39m07/11/2024, 9:10:16 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 9452  - [39m07/11/2024, 9:10:16 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/chart, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 9452  - [39m07/11/2024, 9:10:16 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/:workerName, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 9452  - [39m07/11/2024, 9:10:16 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/:workerName/:sessionId, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 9452  - [39m07/11/2024, 9:10:16 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAddressController {/api/address}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 9452  - [39m07/11/2024, 9:10:16 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/address/settings, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 9452  - [39m07/11/2024, 9:10:16 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +18ms[39m
+[31m[Nest] 9452  - [39m07/11/2024, 9:10:16 PM [31m  ERROR[39m [38;5;3m[NestApplication] [39m[31mError: listen EADDRINUSE: address already in use 0.0.0.0:3334[39m[38;5;3m +7ms[39m
+node:net:1897
+    const ex = new UVExceptionWithHostPort(err, 'listen', address, port);
+               ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3334
+    at Server.setupListenHandle [as _listen2] (node:net:1897:16)
+    at listenInCluster (node:net:1945:12)
+    at doListen (node:net:2109:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3334
+}
+
+Node.js v20.12.1
+[32m[Nest] 6676  - [39m07/11/2024, 9:10:46 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 18312  - [39m07/11/2024, 10:36:18 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 18312  - [39m07/11/2024, 10:36:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +169ms[39m
+[32m[Nest] 18312  - [39m07/11/2024, 10:36:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mHttpModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18312  - [39m07/11/2024, 10:36:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCacheModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 18312  - [39m07/11/2024, 10:36:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18312  - [39m07/11/2024, 10:36:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDiscoveryModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18312  - [39m07/11/2024, 10:36:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18312  - [39m07/11/2024, 10:36:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mScheduleModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 18312  - [39m07/11/2024, 10:36:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +58ms[39m
+[32m[Nest] 18312  - [39m07/11/2024, 10:36:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18312  - [39m07/11/2024, 10:36:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18312  - [39m07/11/2024, 10:36:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18312  - [39m07/11/2024, 10:36:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18312  - [39m07/11/2024, 10:36:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 18312  - [39m07/11/2024, 10:36:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18312  - [39m07/11/2024, 10:36:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mClientStatisticsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18312  - [39m07/11/2024, 10:36:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mClientModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18312  - [39m07/11/2024, 10:36:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAddressSettingsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18312  - [39m07/11/2024, 10:36:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTelegramSubscriptionsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18312  - [39m07/11/2024, 10:36:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBlocksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18312  - [39m07/11/2024, 10:36:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mRpcBlocksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18312  - [39m07/11/2024, 10:36:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +3ms[39m
+[32m[Nest] 18312  - [39m07/11/2024, 10:36:18 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/api}:[39m[38;5;3m +88ms[39m
+[32m[Nest] 18312  - [39m07/11/2024, 10:36:18 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/info, GET} route[39m[38;5;3m +5ms[39m
+[32m[Nest] 18312  - [39m07/11/2024, 10:36:18 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/pool, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 18312  - [39m07/11/2024, 10:36:18 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/network, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 18312  - [39m07/11/2024, 10:36:18 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/info/chart, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 18312  - [39m07/11/2024, 10:36:18 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mClientController {/api/client}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 18312  - [39m07/11/2024, 10:36:18 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 18312  - [39m07/11/2024, 10:36:18 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/chart, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 18312  - [39m07/11/2024, 10:36:18 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/:workerName, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 18312  - [39m07/11/2024, 10:36:18 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/:workerName/:sessionId, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 18312  - [39m07/11/2024, 10:36:18 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAddressController {/api/address}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 18312  - [39m07/11/2024, 10:36:18 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/address/settings, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 18312  - [39m07/11/2024, 10:36:18 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +21ms[39m
+[31m[Nest] 18312  - [39m07/11/2024, 10:36:18 PM [31m  ERROR[39m [38;5;3m[NestApplication] [39m[31mError: listen EADDRINUSE: address already in use 0.0.0.0:3334[39m[38;5;3m +10ms[39m
+node:net:1897
+    const ex = new UVExceptionWithHostPort(err, 'listen', address, port);
+               ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3334
+    at Server.setupListenHandle [as _listen2] (node:net:1897:16)
+    at listenInCluster (node:net:1945:12)
+    at doListen (node:net:2109:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3334
+}
+
+Node.js v20.12.1
+[32m[Nest] 16608  - [39m07/11/2024, 10:40:04 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 16608  - [39m07/11/2024, 10:40:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +155ms[39m
+[32m[Nest] 16608  - [39m07/11/2024, 10:40:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mHttpModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 16608  - [39m07/11/2024, 10:40:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCacheModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16608  - [39m07/11/2024, 10:40:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16608  - [39m07/11/2024, 10:40:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDiscoveryModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 16608  - [39m07/11/2024, 10:40:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16608  - [39m07/11/2024, 10:40:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mScheduleModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16608  - [39m07/11/2024, 10:40:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +60ms[39m
+[32m[Nest] 16608  - [39m07/11/2024, 10:40:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16608  - [39m07/11/2024, 10:40:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16608  - [39m07/11/2024, 10:40:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 16608  - [39m07/11/2024, 10:40:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16608  - [39m07/11/2024, 10:40:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16608  - [39m07/11/2024, 10:40:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16608  - [39m07/11/2024, 10:40:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mClientStatisticsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16608  - [39m07/11/2024, 10:40:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mClientModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16608  - [39m07/11/2024, 10:40:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAddressSettingsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16608  - [39m07/11/2024, 10:40:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTelegramSubscriptionsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16608  - [39m07/11/2024, 10:40:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBlocksModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 16608  - [39m07/11/2024, 10:40:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mRpcBlocksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16608  - [39m07/11/2024, 10:40:04 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 16608  - [39m07/11/2024, 10:40:04 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/api}:[39m[38;5;3m +86ms[39m
+[32m[Nest] 16608  - [39m07/11/2024, 10:40:04 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/info, GET} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 16608  - [39m07/11/2024, 10:40:04 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/pool, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 16608  - [39m07/11/2024, 10:40:04 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/network, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 16608  - [39m07/11/2024, 10:40:04 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/info/chart, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 16608  - [39m07/11/2024, 10:40:04 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mClientController {/api/client}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 16608  - [39m07/11/2024, 10:40:04 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 16608  - [39m07/11/2024, 10:40:04 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/chart, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 16608  - [39m07/11/2024, 10:40:04 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/:workerName, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 16608  - [39m07/11/2024, 10:40:04 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/:workerName/:sessionId, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 16608  - [39m07/11/2024, 10:40:04 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAddressController {/api/address}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 16608  - [39m07/11/2024, 10:40:04 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/address/settings, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 16608  - [39m07/11/2024, 10:40:05 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +21ms[39m
+API listening on http://0.0.0.0:3334
+Could not reach RPC host
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Stratum server is listening on port 3333
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+[32m[Nest] 4248  - [39m07/11/2024, 11:15:33 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 4248  - [39m07/11/2024, 11:15:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +99ms[39m
+[32m[Nest] 4248  - [39m07/11/2024, 11:15:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mHttpModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 4248  - [39m07/11/2024, 11:15:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCacheModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 4248  - [39m07/11/2024, 11:15:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 4248  - [39m07/11/2024, 11:15:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDiscoveryModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 4248  - [39m07/11/2024, 11:15:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 4248  - [39m07/11/2024, 11:15:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mScheduleModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 4248  - [39m07/11/2024, 11:15:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +57ms[39m
+[32m[Nest] 4248  - [39m07/11/2024, 11:15:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 4248  - [39m07/11/2024, 11:15:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 4248  - [39m07/11/2024, 11:15:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 4248  - [39m07/11/2024, 11:15:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 4248  - [39m07/11/2024, 11:15:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 4248  - [39m07/11/2024, 11:15:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 4248  - [39m07/11/2024, 11:15:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mClientStatisticsModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 4248  - [39m07/11/2024, 11:15:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mClientModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 4248  - [39m07/11/2024, 11:15:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAddressSettingsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 4248  - [39m07/11/2024, 11:15:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTelegramSubscriptionsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 4248  - [39m07/11/2024, 11:15:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBlocksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 4248  - [39m07/11/2024, 11:15:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mRpcBlocksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 4248  - [39m07/11/2024, 11:15:33 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +3ms[39m
+[32m[Nest] 4248  - [39m07/11/2024, 11:15:33 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/api}:[39m[38;5;3m +57ms[39m
+[32m[Nest] 4248  - [39m07/11/2024, 11:15:33 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/info, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 4248  - [39m07/11/2024, 11:15:33 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/pool, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 4248  - [39m07/11/2024, 11:15:33 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/network, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 4248  - [39m07/11/2024, 11:15:33 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/info/chart, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 4248  - [39m07/11/2024, 11:15:33 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mClientController {/api/client}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 4248  - [39m07/11/2024, 11:15:33 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 4248  - [39m07/11/2024, 11:15:33 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/chart, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 4248  - [39m07/11/2024, 11:15:33 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/:workerName, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 4248  - [39m07/11/2024, 11:15:33 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/:workerName/:sessionId, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 4248  - [39m07/11/2024, 11:15:33 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAddressController {/api/address}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 4248  - [39m07/11/2024, 11:15:33 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/address/settings, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 4248  - [39m07/11/2024, 11:15:33 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +21ms[39m
+API listening on http://0.0.0.0:3334
+Could not reach RPC host
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+[32m[Nest] 12164  - [39m07/11/2024, 11:17:57 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 12164  - [39m07/11/2024, 11:17:57 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +100ms[39m
+[32m[Nest] 12164  - [39m07/11/2024, 11:17:57 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mHttpModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12164  - [39m07/11/2024, 11:17:57 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCacheModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12164  - [39m07/11/2024, 11:17:57 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 12164  - [39m07/11/2024, 11:17:57 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDiscoveryModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12164  - [39m07/11/2024, 11:17:57 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12164  - [39m07/11/2024, 11:17:57 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mScheduleModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 12164  - [39m07/11/2024, 11:17:57 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +33ms[39m
+[32m[Nest] 12164  - [39m07/11/2024, 11:17:57 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 12164  - [39m07/11/2024, 11:17:57 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12164  - [39m07/11/2024, 11:17:57 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12164  - [39m07/11/2024, 11:17:57 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12164  - [39m07/11/2024, 11:17:57 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12164  - [39m07/11/2024, 11:17:57 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12164  - [39m07/11/2024, 11:17:57 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mClientStatisticsModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 12164  - [39m07/11/2024, 11:17:57 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mClientModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12164  - [39m07/11/2024, 11:17:57 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAddressSettingsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12164  - [39m07/11/2024, 11:17:57 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTelegramSubscriptionsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12164  - [39m07/11/2024, 11:17:57 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBlocksModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 12164  - [39m07/11/2024, 11:17:57 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mRpcBlocksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12164  - [39m07/11/2024, 11:17:57 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 12164  - [39m07/11/2024, 11:17:57 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/api}:[39m[38;5;3m +74ms[39m
+[32m[Nest] 12164  - [39m07/11/2024, 11:17:57 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/info, GET} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 12164  - [39m07/11/2024, 11:17:57 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/pool, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12164  - [39m07/11/2024, 11:17:57 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/network, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12164  - [39m07/11/2024, 11:17:57 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/info/chart, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12164  - [39m07/11/2024, 11:17:57 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mClientController {/api/client}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 12164  - [39m07/11/2024, 11:17:57 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12164  - [39m07/11/2024, 11:17:57 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/chart, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12164  - [39m07/11/2024, 11:17:57 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/:workerName, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12164  - [39m07/11/2024, 11:17:57 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/:workerName/:sessionId, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12164  - [39m07/11/2024, 11:17:57 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAddressController {/api/address}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 12164  - [39m07/11/2024, 11:17:57 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/address/settings, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12164  - [39m07/11/2024, 11:17:57 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +18ms[39m
+API listening on http://0.0.0.0:3334
+Could not reach RPC host
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Stratum server is listening on port 3333
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+[32m[Nest] 19864  - [39m07/11/2024, 11:18:40 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 19864  - [39m07/11/2024, 11:18:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +99ms[39m
+[32m[Nest] 19864  - [39m07/11/2024, 11:18:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mHttpModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 19864  - [39m07/11/2024, 11:18:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCacheModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 19864  - [39m07/11/2024, 11:18:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 19864  - [39m07/11/2024, 11:18:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDiscoveryModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 19864  - [39m07/11/2024, 11:18:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 19864  - [39m07/11/2024, 11:18:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mScheduleModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 19864  - [39m07/11/2024, 11:18:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +35ms[39m
+[32m[Nest] 19864  - [39m07/11/2024, 11:18:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 19864  - [39m07/11/2024, 11:18:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 19864  - [39m07/11/2024, 11:18:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 19864  - [39m07/11/2024, 11:18:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 19864  - [39m07/11/2024, 11:18:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 19864  - [39m07/11/2024, 11:18:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 19864  - [39m07/11/2024, 11:18:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mClientStatisticsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 19864  - [39m07/11/2024, 11:18:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mClientModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 19864  - [39m07/11/2024, 11:18:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAddressSettingsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 19864  - [39m07/11/2024, 11:18:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTelegramSubscriptionsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 19864  - [39m07/11/2024, 11:18:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBlocksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 19864  - [39m07/11/2024, 11:18:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mRpcBlocksModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 19864  - [39m07/11/2024, 11:18:40 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 19864  - [39m07/11/2024, 11:18:40 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/api}:[39m[38;5;3m +59ms[39m
+[32m[Nest] 19864  - [39m07/11/2024, 11:18:40 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/info, GET} route[39m[38;5;3m +5ms[39m
+[32m[Nest] 19864  - [39m07/11/2024, 11:18:40 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/pool, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 19864  - [39m07/11/2024, 11:18:40 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/network, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 19864  - [39m07/11/2024, 11:18:40 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/info/chart, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 19864  - [39m07/11/2024, 11:18:40 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mClientController {/api/client}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 19864  - [39m07/11/2024, 11:18:40 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 19864  - [39m07/11/2024, 11:18:40 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/chart, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 19864  - [39m07/11/2024, 11:18:40 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/:workerName, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 19864  - [39m07/11/2024, 11:18:40 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/:workerName/:sessionId, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 19864  - [39m07/11/2024, 11:18:40 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAddressController {/api/address}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 19864  - [39m07/11/2024, 11:18:40 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/address/settings, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 19864  - [39m07/11/2024, 11:18:40 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +20ms[39m
+API listening on http://0.0.0.0:3334
+Could not reach RPC host
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Stratum server is listening on port 3333
+[32m[Nest] 12744  - [39m07/11/2024, 11:21:18 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 12744  - [39m07/11/2024, 11:21:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +137ms[39m
+[32m[Nest] 12744  - [39m07/11/2024, 11:21:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mHttpModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12744  - [39m07/11/2024, 11:21:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCacheModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12744  - [39m07/11/2024, 11:21:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12744  - [39m07/11/2024, 11:21:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDiscoveryModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 12744  - [39m07/11/2024, 11:21:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12744  - [39m07/11/2024, 11:21:18 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mScheduleModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 12744  - [39m07/11/2024, 11:21:19 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +36ms[39m
+[32m[Nest] 12744  - [39m07/11/2024, 11:21:19 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12744  - [39m07/11/2024, 11:21:19 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12744  - [39m07/11/2024, 11:21:19 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12744  - [39m07/11/2024, 11:21:19 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12744  - [39m07/11/2024, 11:21:19 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12744  - [39m07/11/2024, 11:21:19 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12744  - [39m07/11/2024, 11:21:19 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mClientStatisticsModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 12744  - [39m07/11/2024, 11:21:19 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mClientModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12744  - [39m07/11/2024, 11:21:19 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAddressSettingsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12744  - [39m07/11/2024, 11:21:19 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTelegramSubscriptionsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12744  - [39m07/11/2024, 11:21:19 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBlocksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12744  - [39m07/11/2024, 11:21:19 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mRpcBlocksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12744  - [39m07/11/2024, 11:21:19 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 12744  - [39m07/11/2024, 11:21:19 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/api}:[39m[38;5;3m +52ms[39m
+[32m[Nest] 12744  - [39m07/11/2024, 11:21:19 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/info, GET} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 12744  - [39m07/11/2024, 11:21:19 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/pool, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12744  - [39m07/11/2024, 11:21:19 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/network, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12744  - [39m07/11/2024, 11:21:19 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/info/chart, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12744  - [39m07/11/2024, 11:21:19 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mClientController {/api/client}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 12744  - [39m07/11/2024, 11:21:19 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 12744  - [39m07/11/2024, 11:21:19 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/chart, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12744  - [39m07/11/2024, 11:21:19 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/:workerName, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12744  - [39m07/11/2024, 11:21:19 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/:workerName/:sessionId, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12744  - [39m07/11/2024, 11:21:19 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAddressController {/api/address}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 12744  - [39m07/11/2024, 11:21:19 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/address/settings, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12744  - [39m07/11/2024, 11:21:19 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +20ms[39m
+API listening on http://0.0.0.0:3334
+Could not reach RPC host
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+[32m[Nest] 18056  - [39m07/11/2024, 11:21:37 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 18056  - [39m07/11/2024, 11:21:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +88ms[39m
+[32m[Nest] 18056  - [39m07/11/2024, 11:21:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mHttpModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 18056  - [39m07/11/2024, 11:21:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCacheModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18056  - [39m07/11/2024, 11:21:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18056  - [39m07/11/2024, 11:21:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDiscoveryModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18056  - [39m07/11/2024, 11:21:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18056  - [39m07/11/2024, 11:21:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mScheduleModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 18056  - [39m07/11/2024, 11:21:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +28ms[39m
+[32m[Nest] 18056  - [39m07/11/2024, 11:21:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18056  - [39m07/11/2024, 11:21:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18056  - [39m07/11/2024, 11:21:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18056  - [39m07/11/2024, 11:21:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 18056  - [39m07/11/2024, 11:21:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18056  - [39m07/11/2024, 11:21:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18056  - [39m07/11/2024, 11:21:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mClientStatisticsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18056  - [39m07/11/2024, 11:21:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mClientModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18056  - [39m07/11/2024, 11:21:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAddressSettingsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18056  - [39m07/11/2024, 11:21:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTelegramSubscriptionsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18056  - [39m07/11/2024, 11:21:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBlocksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18056  - [39m07/11/2024, 11:21:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mRpcBlocksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18056  - [39m07/11/2024, 11:21:37 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 18056  - [39m07/11/2024, 11:21:37 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/api}:[39m[38;5;3m +51ms[39m
+[32m[Nest] 18056  - [39m07/11/2024, 11:21:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/info, GET} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 18056  - [39m07/11/2024, 11:21:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/pool, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 18056  - [39m07/11/2024, 11:21:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/network, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 18056  - [39m07/11/2024, 11:21:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/info/chart, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 18056  - [39m07/11/2024, 11:21:37 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mClientController {/api/client}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 18056  - [39m07/11/2024, 11:21:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 18056  - [39m07/11/2024, 11:21:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/chart, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 18056  - [39m07/11/2024, 11:21:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/:workerName, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 18056  - [39m07/11/2024, 11:21:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/:workerName/:sessionId, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 18056  - [39m07/11/2024, 11:21:37 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAddressController {/api/address}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 18056  - [39m07/11/2024, 11:21:37 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/address/settings, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 18056  - [39m07/11/2024, 11:21:37 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +17ms[39m
+API listening on http://0.0.0.0:3334
+Could not reach RPC host
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Stratum server is listening on port 3333
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+[32m[Nest] 5728  - [39m07/11/2024, 11:23:28 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 5728  - [39m07/11/2024, 11:23:28 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +86ms[39m
+[32m[Nest] 5728  - [39m07/11/2024, 11:23:28 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mHttpModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 5728  - [39m07/11/2024, 11:23:28 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCacheModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 5728  - [39m07/11/2024, 11:23:28 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 5728  - [39m07/11/2024, 11:23:28 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDiscoveryModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 5728  - [39m07/11/2024, 11:23:28 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 5728  - [39m07/11/2024, 11:23:28 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mScheduleModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 5728  - [39m07/11/2024, 11:23:28 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +30ms[39m
+[32m[Nest] 5728  - [39m07/11/2024, 11:23:28 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 5728  - [39m07/11/2024, 11:23:28 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 5728  - [39m07/11/2024, 11:23:28 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 5728  - [39m07/11/2024, 11:23:28 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 5728  - [39m07/11/2024, 11:23:28 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 5728  - [39m07/11/2024, 11:23:28 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 5728  - [39m07/11/2024, 11:23:28 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mClientStatisticsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 5728  - [39m07/11/2024, 11:23:28 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mClientModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 5728  - [39m07/11/2024, 11:23:28 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAddressSettingsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 5728  - [39m07/11/2024, 11:23:28 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTelegramSubscriptionsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 5728  - [39m07/11/2024, 11:23:28 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBlocksModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 5728  - [39m07/11/2024, 11:23:28 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mRpcBlocksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 5728  - [39m07/11/2024, 11:23:28 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 5728  - [39m07/11/2024, 11:23:28 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/api}:[39m[38;5;3m +47ms[39m
+[32m[Nest] 5728  - [39m07/11/2024, 11:23:28 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/info, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 5728  - [39m07/11/2024, 11:23:28 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/pool, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 5728  - [39m07/11/2024, 11:23:28 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/network, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 5728  - [39m07/11/2024, 11:23:28 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/info/chart, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 5728  - [39m07/11/2024, 11:23:28 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mClientController {/api/client}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 5728  - [39m07/11/2024, 11:23:28 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 5728  - [39m07/11/2024, 11:23:28 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/chart, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 5728  - [39m07/11/2024, 11:23:28 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/:workerName, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 5728  - [39m07/11/2024, 11:23:28 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/:workerName/:sessionId, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 5728  - [39m07/11/2024, 11:23:28 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAddressController {/api/address}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 5728  - [39m07/11/2024, 11:23:28 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/address/settings, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 5728  - [39m07/11/2024, 11:23:28 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +17ms[39m
+API listening on http://0.0.0.0:3334
+Could not reach RPC host
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Stratum server is listening on port 3333
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+[32m[Nest] 7156  - [39m07/11/2024, 11:23:56 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 7156  - [39m07/11/2024, 11:23:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +87ms[39m
+[32m[Nest] 7156  - [39m07/11/2024, 11:23:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mHttpModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 7156  - [39m07/11/2024, 11:23:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCacheModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 7156  - [39m07/11/2024, 11:23:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 7156  - [39m07/11/2024, 11:23:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDiscoveryModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 7156  - [39m07/11/2024, 11:23:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 7156  - [39m07/11/2024, 11:23:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mScheduleModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 7156  - [39m07/11/2024, 11:23:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +30ms[39m
+[32m[Nest] 7156  - [39m07/11/2024, 11:23:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 7156  - [39m07/11/2024, 11:23:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 7156  - [39m07/11/2024, 11:23:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 7156  - [39m07/11/2024, 11:23:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 7156  - [39m07/11/2024, 11:23:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 7156  - [39m07/11/2024, 11:23:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 7156  - [39m07/11/2024, 11:23:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mClientStatisticsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 7156  - [39m07/11/2024, 11:23:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mClientModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 7156  - [39m07/11/2024, 11:23:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAddressSettingsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 7156  - [39m07/11/2024, 11:23:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTelegramSubscriptionsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 7156  - [39m07/11/2024, 11:23:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBlocksModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 7156  - [39m07/11/2024, 11:23:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mRpcBlocksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 7156  - [39m07/11/2024, 11:23:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 7156  - [39m07/11/2024, 11:23:56 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/api}:[39m[38;5;3m +71ms[39m
+[32m[Nest] 7156  - [39m07/11/2024, 11:23:56 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/info, GET} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 7156  - [39m07/11/2024, 11:23:56 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/pool, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 7156  - [39m07/11/2024, 11:23:56 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/network, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 7156  - [39m07/11/2024, 11:23:56 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/info/chart, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 7156  - [39m07/11/2024, 11:23:56 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mClientController {/api/client}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 7156  - [39m07/11/2024, 11:23:56 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 7156  - [39m07/11/2024, 11:23:56 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/chart, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 7156  - [39m07/11/2024, 11:23:56 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/:workerName, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 7156  - [39m07/11/2024, 11:23:56 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/:workerName/:sessionId, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 7156  - [39m07/11/2024, 11:23:56 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAddressController {/api/address}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 7156  - [39m07/11/2024, 11:23:56 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/address/settings, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 7156  - [39m07/11/2024, 11:23:56 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +18ms[39m
+[31m[Nest] 7156  - [39m07/11/2024, 11:23:56 PM [31m  ERROR[39m [38;5;3m[NestApplication] [39m[31mError: listen EADDRINUSE: address already in use 0.0.0.0:3334[39m[38;5;3m +7ms[39m
+node:net:1897
+    const ex = new UVExceptionWithHostPort(err, 'listen', address, port);
+               ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3334
+    at Server.setupListenHandle [as _listen2] (node:net:1897:16)
+    at listenInCluster (node:net:1945:12)
+    at doListen (node:net:2109:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3334
+}
+
+Node.js v20.12.1
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+[32m[Nest] 4604  - [39m07/11/2024, 11:24:12 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 4604  - [39m07/11/2024, 11:24:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +88ms[39m
+[32m[Nest] 4604  - [39m07/11/2024, 11:24:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mHttpModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 4604  - [39m07/11/2024, 11:24:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCacheModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 4604  - [39m07/11/2024, 11:24:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 4604  - [39m07/11/2024, 11:24:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDiscoveryModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 4604  - [39m07/11/2024, 11:24:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 4604  - [39m07/11/2024, 11:24:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mScheduleModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 4604  - [39m07/11/2024, 11:24:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +27ms[39m
+[32m[Nest] 4604  - [39m07/11/2024, 11:24:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 4604  - [39m07/11/2024, 11:24:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 4604  - [39m07/11/2024, 11:24:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 4604  - [39m07/11/2024, 11:24:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 4604  - [39m07/11/2024, 11:24:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 4604  - [39m07/11/2024, 11:24:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 4604  - [39m07/11/2024, 11:24:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mClientStatisticsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 4604  - [39m07/11/2024, 11:24:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mClientModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 4604  - [39m07/11/2024, 11:24:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAddressSettingsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 4604  - [39m07/11/2024, 11:24:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTelegramSubscriptionsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 4604  - [39m07/11/2024, 11:24:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBlocksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 4604  - [39m07/11/2024, 11:24:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mRpcBlocksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 4604  - [39m07/11/2024, 11:24:12 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 4604  - [39m07/11/2024, 11:24:12 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/api}:[39m[38;5;3m +52ms[39m
+[32m[Nest] 4604  - [39m07/11/2024, 11:24:12 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/info, GET} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 4604  - [39m07/11/2024, 11:24:12 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/pool, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 4604  - [39m07/11/2024, 11:24:12 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/network, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 4604  - [39m07/11/2024, 11:24:12 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/info/chart, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 4604  - [39m07/11/2024, 11:24:12 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mClientController {/api/client}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 4604  - [39m07/11/2024, 11:24:12 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 4604  - [39m07/11/2024, 11:24:12 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/chart, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 4604  - [39m07/11/2024, 11:24:12 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/:workerName, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 4604  - [39m07/11/2024, 11:24:12 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/:workerName/:sessionId, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 4604  - [39m07/11/2024, 11:24:12 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAddressController {/api/address}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 4604  - [39m07/11/2024, 11:24:12 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/address/settings, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 4604  - [39m07/11/2024, 11:24:12 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +18ms[39m
+Error getmininginfo 401 - undefined
+[31m[Nest] 4604  - [39m07/11/2024, 11:24:12 PM [31m  ERROR[39m [38;5;3m[NestApplication] [39m[31mError: listen EADDRINUSE: address already in use 0.0.0.0:3334[39m[38;5;3m +7ms[39m
+node:net:1897
+    const ex = new UVExceptionWithHostPort(err, 'listen', address, port);
+               ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3334
+    at Server.setupListenHandle [as _listen2] (node:net:1897:16)
+    at listenInCluster (node:net:1945:12)
+    at doListen (node:net:2109:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3334
+}
+
+Node.js v20.12.1
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+[32m[Nest] 2552  - [39m07/11/2024, 11:25:56 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 2552  - [39m07/11/2024, 11:25:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +86ms[39m
+[32m[Nest] 2552  - [39m07/11/2024, 11:25:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mHttpModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 2552  - [39m07/11/2024, 11:25:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCacheModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2552  - [39m07/11/2024, 11:25:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2552  - [39m07/11/2024, 11:25:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDiscoveryModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2552  - [39m07/11/2024, 11:25:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2552  - [39m07/11/2024, 11:25:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mScheduleModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 2552  - [39m07/11/2024, 11:25:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +54ms[39m
+[32m[Nest] 2552  - [39m07/11/2024, 11:25:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2552  - [39m07/11/2024, 11:25:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2552  - [39m07/11/2024, 11:25:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 2552  - [39m07/11/2024, 11:25:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2552  - [39m07/11/2024, 11:25:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2552  - [39m07/11/2024, 11:25:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2552  - [39m07/11/2024, 11:25:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mClientStatisticsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2552  - [39m07/11/2024, 11:25:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mClientModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2552  - [39m07/11/2024, 11:25:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAddressSettingsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2552  - [39m07/11/2024, 11:25:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTelegramSubscriptionsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2552  - [39m07/11/2024, 11:25:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBlocksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2552  - [39m07/11/2024, 11:25:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mRpcBlocksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2552  - [39m07/11/2024, 11:25:56 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 2552  - [39m07/11/2024, 11:25:56 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/api}:[39m[38;5;3m +58ms[39m
+[32m[Nest] 2552  - [39m07/11/2024, 11:25:56 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/info, GET} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 2552  - [39m07/11/2024, 11:25:56 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/pool, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 2552  - [39m07/11/2024, 11:25:56 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/network, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 2552  - [39m07/11/2024, 11:25:56 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/info/chart, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 2552  - [39m07/11/2024, 11:25:56 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mClientController {/api/client}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 2552  - [39m07/11/2024, 11:25:56 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 2552  - [39m07/11/2024, 11:25:56 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/chart, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 2552  - [39m07/11/2024, 11:25:56 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/:workerName, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 2552  - [39m07/11/2024, 11:25:56 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/:workerName/:sessionId, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 2552  - [39m07/11/2024, 11:25:56 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAddressController {/api/address}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 2552  - [39m07/11/2024, 11:25:56 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/address/settings, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 2552  - [39m07/11/2024, 11:25:56 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +18ms[39m
+API listening on http://0.0.0.0:3334
+Could not reach RPC host
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Stratum server is listening on port 3333
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+[32m[Nest] 8792  - [39m07/11/2024, 11:26:39 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 8792  - [39m07/11/2024, 11:26:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +87ms[39m
+[32m[Nest] 8792  - [39m07/11/2024, 11:26:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mHttpModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 8792  - [39m07/11/2024, 11:26:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCacheModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 8792  - [39m07/11/2024, 11:26:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 8792  - [39m07/11/2024, 11:26:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDiscoveryModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 8792  - [39m07/11/2024, 11:26:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 8792  - [39m07/11/2024, 11:26:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mScheduleModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 8792  - [39m07/11/2024, 11:26:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +31ms[39m
+[32m[Nest] 8792  - [39m07/11/2024, 11:26:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 8792  - [39m07/11/2024, 11:26:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 8792  - [39m07/11/2024, 11:26:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 8792  - [39m07/11/2024, 11:26:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 8792  - [39m07/11/2024, 11:26:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 8792  - [39m07/11/2024, 11:26:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 8792  - [39m07/11/2024, 11:26:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mClientStatisticsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 8792  - [39m07/11/2024, 11:26:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mClientModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 8792  - [39m07/11/2024, 11:26:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAddressSettingsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 8792  - [39m07/11/2024, 11:26:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTelegramSubscriptionsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 8792  - [39m07/11/2024, 11:26:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBlocksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 8792  - [39m07/11/2024, 11:26:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mRpcBlocksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 8792  - [39m07/11/2024, 11:26:39 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 8792  - [39m07/11/2024, 11:26:39 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/api}:[39m[38;5;3m +47ms[39m
+[32m[Nest] 8792  - [39m07/11/2024, 11:26:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/info, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 8792  - [39m07/11/2024, 11:26:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/pool, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 8792  - [39m07/11/2024, 11:26:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/network, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 8792  - [39m07/11/2024, 11:26:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/info/chart, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 8792  - [39m07/11/2024, 11:26:39 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mClientController {/api/client}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 8792  - [39m07/11/2024, 11:26:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 8792  - [39m07/11/2024, 11:26:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/chart, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 8792  - [39m07/11/2024, 11:26:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/:workerName, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 8792  - [39m07/11/2024, 11:26:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/:workerName/:sessionId, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 8792  - [39m07/11/2024, 11:26:39 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAddressController {/api/address}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 8792  - [39m07/11/2024, 11:26:39 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/address/settings, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 8792  - [39m07/11/2024, 11:26:39 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +17ms[39m
+[31m[Nest] 8792  - [39m07/11/2024, 11:26:39 PM [31m  ERROR[39m [38;5;3m[NestApplication] [39m[31mError: listen EADDRINUSE: address already in use 0.0.0.0:3334[39m[38;5;3m +6ms[39m
+node:net:1897
+    const ex = new UVExceptionWithHostPort(err, 'listen', address, port);
+               ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3334
+    at Server.setupListenHandle [as _listen2] (node:net:1897:16)
+    at listenInCluster (node:net:1945:12)
+    at doListen (node:net:2109:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3334
+}
+
+Node.js v20.12.1
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+[32m[Nest] 10276  - [39m07/11/2024, 11:26:55 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 10276  - [39m07/11/2024, 11:26:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +91ms[39m
+[32m[Nest] 10276  - [39m07/11/2024, 11:26:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mHttpModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 10276  - [39m07/11/2024, 11:26:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCacheModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 10276  - [39m07/11/2024, 11:26:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 10276  - [39m07/11/2024, 11:26:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDiscoveryModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 10276  - [39m07/11/2024, 11:26:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 10276  - [39m07/11/2024, 11:26:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mScheduleModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 10276  - [39m07/11/2024, 11:26:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +33ms[39m
+[32m[Nest] 10276  - [39m07/11/2024, 11:26:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 10276  - [39m07/11/2024, 11:26:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 10276  - [39m07/11/2024, 11:26:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 10276  - [39m07/11/2024, 11:26:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 10276  - [39m07/11/2024, 11:26:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 10276  - [39m07/11/2024, 11:26:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 10276  - [39m07/11/2024, 11:26:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mClientStatisticsModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 10276  - [39m07/11/2024, 11:26:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mClientModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 10276  - [39m07/11/2024, 11:26:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAddressSettingsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 10276  - [39m07/11/2024, 11:26:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTelegramSubscriptionsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 10276  - [39m07/11/2024, 11:26:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBlocksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 10276  - [39m07/11/2024, 11:26:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mRpcBlocksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 10276  - [39m07/11/2024, 11:26:55 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +2ms[39m
+Error getmininginfo 401 - undefined
+[32m[Nest] 10276  - [39m07/11/2024, 11:26:55 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/api}:[39m[38;5;3m +66ms[39m
+[32m[Nest] 10276  - [39m07/11/2024, 11:26:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/info, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 10276  - [39m07/11/2024, 11:26:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/pool, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 10276  - [39m07/11/2024, 11:26:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/network, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 10276  - [39m07/11/2024, 11:26:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/info/chart, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 10276  - [39m07/11/2024, 11:26:55 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mClientController {/api/client}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 10276  - [39m07/11/2024, 11:26:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 10276  - [39m07/11/2024, 11:26:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/chart, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 10276  - [39m07/11/2024, 11:26:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/:workerName, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 10276  - [39m07/11/2024, 11:26:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/:workerName/:sessionId, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 10276  - [39m07/11/2024, 11:26:55 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAddressController {/api/address}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 10276  - [39m07/11/2024, 11:26:55 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/address/settings, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 10276  - [39m07/11/2024, 11:26:55 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +17ms[39m
+[31m[Nest] 10276  - [39m07/11/2024, 11:26:55 PM [31m  ERROR[39m [38;5;3m[NestApplication] [39m[31mError: listen EADDRINUSE: address already in use 0.0.0.0:3334[39m[38;5;3m +6ms[39m
+node:net:1897
+    const ex = new UVExceptionWithHostPort(err, 'listen', address, port);
+               ^
+
+Error: listen EADDRINUSE: address already in use 0.0.0.0:3334
+    at Server.setupListenHandle [as _listen2] (node:net:1897:16)
+    at listenInCluster (node:net:1945:12)
+    at doListen (node:net:2109:7)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21) {
+  code: 'EADDRINUSE',
+  errno: -4091,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3334
+}
+
+Node.js v20.12.1
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+[32m[Nest] 20384  - [39m07/11/2024, 11:27:27 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 20384  - [39m07/11/2024, 11:27:27 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +92ms[39m
+[32m[Nest] 20384  - [39m07/11/2024, 11:27:27 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mHttpModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 20384  - [39m07/11/2024, 11:27:27 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCacheModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 20384  - [39m07/11/2024, 11:27:27 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 20384  - [39m07/11/2024, 11:27:27 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDiscoveryModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 20384  - [39m07/11/2024, 11:27:27 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 20384  - [39m07/11/2024, 11:27:27 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mScheduleModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 20384  - [39m07/11/2024, 11:27:27 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +49ms[39m
+[32m[Nest] 20384  - [39m07/11/2024, 11:27:27 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 20384  - [39m07/11/2024, 11:27:27 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 20384  - [39m07/11/2024, 11:27:27 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 20384  - [39m07/11/2024, 11:27:27 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 20384  - [39m07/11/2024, 11:27:27 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 20384  - [39m07/11/2024, 11:27:27 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 20384  - [39m07/11/2024, 11:27:27 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mClientStatisticsModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 20384  - [39m07/11/2024, 11:27:27 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mClientModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 20384  - [39m07/11/2024, 11:27:27 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAddressSettingsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 20384  - [39m07/11/2024, 11:27:27 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTelegramSubscriptionsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 20384  - [39m07/11/2024, 11:27:27 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBlocksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 20384  - [39m07/11/2024, 11:27:27 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mRpcBlocksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 20384  - [39m07/11/2024, 11:27:27 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 20384  - [39m07/11/2024, 11:27:27 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/api}:[39m[38;5;3m +74ms[39m
+[32m[Nest] 20384  - [39m07/11/2024, 11:27:27 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/info, GET} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 20384  - [39m07/11/2024, 11:27:27 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/pool, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 20384  - [39m07/11/2024, 11:27:27 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/network, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 20384  - [39m07/11/2024, 11:27:27 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/info/chart, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 20384  - [39m07/11/2024, 11:27:27 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mClientController {/api/client}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 20384  - [39m07/11/2024, 11:27:27 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 20384  - [39m07/11/2024, 11:27:27 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/chart, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 20384  - [39m07/11/2024, 11:27:27 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/:workerName, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 20384  - [39m07/11/2024, 11:27:27 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/:workerName/:sessionId, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 20384  - [39m07/11/2024, 11:27:27 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAddressController {/api/address}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 20384  - [39m07/11/2024, 11:27:27 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/address/settings, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 20384  - [39m07/11/2024, 11:27:27 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +18ms[39m
+API listening on http://0.0.0.0:3334
+Could not reach RPC host
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+[32m[Nest] 7664  - [39m07/11/2024, 11:31:07 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 7664  - [39m07/11/2024, 11:31:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +89ms[39m
+[32m[Nest] 7664  - [39m07/11/2024, 11:31:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mHttpModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 7664  - [39m07/11/2024, 11:31:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCacheModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 7664  - [39m07/11/2024, 11:31:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 7664  - [39m07/11/2024, 11:31:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDiscoveryModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 7664  - [39m07/11/2024, 11:31:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 7664  - [39m07/11/2024, 11:31:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mScheduleModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 7664  - [39m07/11/2024, 11:31:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +59ms[39m
+[32m[Nest] 7664  - [39m07/11/2024, 11:31:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 7664  - [39m07/11/2024, 11:31:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 7664  - [39m07/11/2024, 11:31:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 7664  - [39m07/11/2024, 11:31:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 7664  - [39m07/11/2024, 11:31:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 7664  - [39m07/11/2024, 11:31:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 7664  - [39m07/11/2024, 11:31:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mClientStatisticsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 7664  - [39m07/11/2024, 11:31:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mClientModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 7664  - [39m07/11/2024, 11:31:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAddressSettingsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 7664  - [39m07/11/2024, 11:31:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTelegramSubscriptionsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 7664  - [39m07/11/2024, 11:31:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBlocksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 7664  - [39m07/11/2024, 11:31:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mRpcBlocksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 7664  - [39m07/11/2024, 11:31:07 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +3ms[39m
+[32m[Nest] 7664  - [39m07/11/2024, 11:31:07 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/api}:[39m[38;5;3m +86ms[39m
+[32m[Nest] 7664  - [39m07/11/2024, 11:31:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/info, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 7664  - [39m07/11/2024, 11:31:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/pool, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 7664  - [39m07/11/2024, 11:31:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/network, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 7664  - [39m07/11/2024, 11:31:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/info/chart, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 7664  - [39m07/11/2024, 11:31:07 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mClientController {/api/client}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 7664  - [39m07/11/2024, 11:31:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 7664  - [39m07/11/2024, 11:31:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/chart, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 7664  - [39m07/11/2024, 11:31:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/:workerName, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 7664  - [39m07/11/2024, 11:31:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/:workerName/:sessionId, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 7664  - [39m07/11/2024, 11:31:07 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAddressController {/api/address}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 7664  - [39m07/11/2024, 11:31:07 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/address/settings, PATCH} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 7664  - [39m07/11/2024, 11:31:07 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +17ms[39m
+API listening on http://0.0.0.0:3334
+Could not reach RPC host
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+[32m[Nest] 2656  - [39m07/11/2024, 11:35:54 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 2656  - [39m07/11/2024, 11:35:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +87ms[39m
+[32m[Nest] 2656  - [39m07/11/2024, 11:35:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mHttpModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2656  - [39m07/11/2024, 11:35:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCacheModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 2656  - [39m07/11/2024, 11:35:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2656  - [39m07/11/2024, 11:35:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDiscoveryModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2656  - [39m07/11/2024, 11:35:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2656  - [39m07/11/2024, 11:35:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mScheduleModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 2656  - [39m07/11/2024, 11:35:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +36ms[39m
+[32m[Nest] 2656  - [39m07/11/2024, 11:35:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2656  - [39m07/11/2024, 11:35:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2656  - [39m07/11/2024, 11:35:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2656  - [39m07/11/2024, 11:35:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2656  - [39m07/11/2024, 11:35:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2656  - [39m07/11/2024, 11:35:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 2656  - [39m07/11/2024, 11:35:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mClientStatisticsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2656  - [39m07/11/2024, 11:35:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mClientModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2656  - [39m07/11/2024, 11:35:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAddressSettingsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2656  - [39m07/11/2024, 11:35:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTelegramSubscriptionsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2656  - [39m07/11/2024, 11:35:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBlocksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2656  - [39m07/11/2024, 11:35:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mRpcBlocksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 2656  - [39m07/11/2024, 11:35:54 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 2656  - [39m07/11/2024, 11:35:54 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/api}:[39m[38;5;3m +66ms[39m
+[32m[Nest] 2656  - [39m07/11/2024, 11:35:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/info, GET} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 2656  - [39m07/11/2024, 11:35:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/pool, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 2656  - [39m07/11/2024, 11:35:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/network, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 2656  - [39m07/11/2024, 11:35:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/info/chart, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 2656  - [39m07/11/2024, 11:35:54 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mClientController {/api/client}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 2656  - [39m07/11/2024, 11:35:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 2656  - [39m07/11/2024, 11:35:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/chart, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 2656  - [39m07/11/2024, 11:35:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/:workerName, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 2656  - [39m07/11/2024, 11:35:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/:workerName/:sessionId, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 2656  - [39m07/11/2024, 11:35:54 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAddressController {/api/address}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 2656  - [39m07/11/2024, 11:35:54 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/address/settings, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 2656  - [39m07/11/2024, 11:35:54 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +17ms[39m
+API listening on http://0.0.0.0:3334
+Could not reach RPC host
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+[32m[Nest] 12660  - [39m07/11/2024, 11:36:17 PM [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 12660  - [39m07/11/2024, 11:36:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +83ms[39m
+[32m[Nest] 12660  - [39m07/11/2024, 11:36:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mHttpModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12660  - [39m07/11/2024, 11:36:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mCacheModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 12660  - [39m07/11/2024, 11:36:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12660  - [39m07/11/2024, 11:36:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mDiscoveryModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12660  - [39m07/11/2024, 11:36:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12660  - [39m07/11/2024, 11:36:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mScheduleModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 12660  - [39m07/11/2024, 11:36:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +28ms[39m
+[32m[Nest] 12660  - [39m07/11/2024, 11:36:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12660  - [39m07/11/2024, 11:36:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12660  - [39m07/11/2024, 11:36:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12660  - [39m07/11/2024, 11:36:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12660  - [39m07/11/2024, 11:36:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12660  - [39m07/11/2024, 11:36:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12660  - [39m07/11/2024, 11:36:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mClientStatisticsModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 12660  - [39m07/11/2024, 11:36:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mClientModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12660  - [39m07/11/2024, 11:36:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAddressSettingsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12660  - [39m07/11/2024, 11:36:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTelegramSubscriptionsModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12660  - [39m07/11/2024, 11:36:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mBlocksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12660  - [39m07/11/2024, 11:36:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mRpcBlocksModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 12660  - [39m07/11/2024, 11:36:17 PM [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 12660  - [39m07/11/2024, 11:36:17 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAppController {/api}:[39m[38;5;3m +53ms[39m
+[32m[Nest] 12660  - [39m07/11/2024, 11:36:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/info, GET} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 12660  - [39m07/11/2024, 11:36:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/pool, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12660  - [39m07/11/2024, 11:36:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/network, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12660  - [39m07/11/2024, 11:36:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/info/chart, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12660  - [39m07/11/2024, 11:36:17 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mClientController {/api/client}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 12660  - [39m07/11/2024, 11:36:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12660  - [39m07/11/2024, 11:36:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/chart, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12660  - [39m07/11/2024, 11:36:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/:workerName, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 12660  - [39m07/11/2024, 11:36:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/client/:address/:workerName/:sessionId, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12660  - [39m07/11/2024, 11:36:17 PM [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mAddressController {/api/address}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 12660  - [39m07/11/2024, 11:36:17 PM [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/api/address/settings, PATCH} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 12660  - [39m07/11/2024, 11:36:17 PM [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +17ms[39m
+API listening on http://0.0.0.0:3334
+Could not reach RPC host
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
+Error getmininginfo 401 - undefined
