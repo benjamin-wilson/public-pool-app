@@ -7,8 +7,7 @@ module.exports = {
     asar: true,
     extraResource: [
       path.resolve(__dirname, 'public-pool/dist'),
-      path.resolve(__dirname, 'public-pool/node_modules'),
-      path.resolve(__dirname, 'settings.json'),
+      path.resolve(__dirname, 'public-pool/node_modules')
     ],
     icon: path.resolve(__dirname, 'public-pool-ui/src/assets/layout/images/logo')
   },
