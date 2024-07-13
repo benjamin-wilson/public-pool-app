@@ -5,17 +5,12 @@ if (require('electron-squirrel-startup')) {
     app.quit();
     return;
 }
-
 // Modules to control application life and create native browser window
 const { fork } = require('child_process');
 const { BrowserWindow } = require('electron');
-const fs = require('fs');
 const settings = require('electron-settings');
-
-
-
 const path = require("path");
-const { electron } = require('process');
+
 const createWindow = () => {
     // Create the browser window.
     const mainWindow = new BrowserWindow({
@@ -31,41 +26,29 @@ const createWindow = () => {
         mainWindow.loadFile(path.join(__dirname, 'public-pool-ui', 'dist', 'public-pool-ui', 'index.html'));
     });
 
-
     //mainWindow.webContents.openDevTools();
 }
 
 
 app.whenReady().then(() => {
-    setTimeout(() => {
-        createWindow();
-    }, 3000);
-
     app.on('activate', () => {
         // On macOS it's common to re-create a window in the app when the
         // dock icon is clicked and there are no other windows open.
-        if (BrowserWindow.getAllWindows().length === 0) createWindow()
+        if (BrowserWindow.getAllWindows().length === 0) {
+            createWindow();
+        }
     })
 })
-
 
 const serverPath = app.isPackaged ?
     path.join(process.resourcesPath, 'dist', 'main.js')
     : path.join(__dirname, 'public-pool', 'dist', 'main.js');
 
-// const evnFilePath = app.isPackaged ?
-//     path.join(process.resourcesPath, 'settings.json')
-//     : path.join(__dirname, 'settings.json')
-
-
-// var envFile = JSON.parse(fs.readFileSync(evnFilePath, 'utf8'));
-
 const loadSettings = async () => {
-    settings.configure({ prettify: true });
-    console.log(app.getPath('userData'));
+    settings.configure({prettify: true});
     try {
         const envFile = await settings.get('env');
-        if (envFile == null) {
+        if(envFile == null){
             const defaultEnv = {
                 BITCOIN_RPC_URL: 'http://192.168.1.49',
                 BITCOIN_RPC_USER: '',
@@ -73,12 +56,10 @@ const loadSettings = async () => {
                 BITCOIN_RPC_PORT: '8332',
                 BITCOIN_RPC_TIMEOUT: '10000',
                 BITCOIN_RPC_COOKIEFILE: '',
-
                 API_PORT: '3334',
                 STRATUM_PORT: '3333',
-
                 NETWORK: 'mainnet',
-                'API_SECURE': false
+                API_SECURE: false
             };
             await settings.set('env', defaultEnv);
             return defaultEnv;
@@ -90,11 +71,10 @@ const loadSettings = async () => {
     }
 }
 
-
 loadSettings().then((env) => {
 
     // Spawn NestJS server process
-    const nestProcess = fork(serverPath, ['child'], { env });
+    const nestProcess = fork(serverPath, { env });
 
     // Handle errors from the child process
     nestProcess.on('error', (err) => {
@@ -110,11 +90,17 @@ loadSettings().then((env) => {
         console.log(`NestJS server process exited with code ${code}`);
     });
 
+    nestProcess.on('spawn', () =>{
+        createWindow();
+    });
+
     // Quit when all windows are closed, except on macOS. There, it's common
     // for applications and their menu bar to stay active until the user quits
     // explicitly with Cmd + Q.
     app.on('window-all-closed', () => {
-        if (process.platform !== 'darwin') app.quit()
+        if (process.platform !== 'darwin'){
+            app.quit();
+        } 
     });
 
     app.on('will-quit', () => {
