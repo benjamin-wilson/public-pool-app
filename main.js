@@ -10,6 +10,9 @@ if (require('electron-squirrel-startup')) {
 const { fork } = require('child_process');
 const { BrowserWindow } = require('electron');
 const fs = require('fs');
+const settings = require('electron-settings');
+
+
 
 const path = require("path");
 const createWindow = () => {
@@ -50,43 +53,71 @@ const serverPath = app.isPackaged ?
     path.join(process.resourcesPath, 'dist', 'main.js')
     : path.join(__dirname, 'public-pool', 'dist', 'main.js');
 
-const evnFilePath = app.isPackaged ?
-    path.join(process.resourcesPath, 'settings.json')
-    : path.join(__dirname, 'settings.json')
+// const evnFilePath = app.isPackaged ?
+//     path.join(process.resourcesPath, 'settings.json')
+//     : path.join(__dirname, 'settings.json')
 
 
-var envFile = JSON.parse(fs.readFileSync(evnFilePath, 'utf8'));
+// var envFile = JSON.parse(fs.readFileSync(evnFilePath, 'utf8'));
+
+const loadSettings = async () => {
+    settings.configure({prettify: true});
+    try {
+        const envFile = await settings.get('env');
+        if(envFile == null){
+            const defaultEnv = {
+                BITCOIN_RPC_URL: 'http://192.168.1.49',
+                BITCOIN_RPC_USER: '',
+                BITCOIN_RPC_PASSWORD: '',
+                BITCOIN_RPC_PORT: '8332',
+                BITCOIN_RPC_TIMEOUT: '10000',
+                BITCOIN_RPC_COOKIEFILE: '',
+            
+                API_PORT: '3334',
+                STRATUM_PORT: '3333',
+            
+                NETWORK: 'mainnet',
+                'API_SECURE': false
+            };
+            await settings.set('env', defaultEnv);
+            return defaultEnv;
+        }
+        return envFile;
+    } catch (err) {
+        console.error('Failed to load settings:', err);
+        return {};
+    }
+}
 
 
-// Spawn NestJS server process
-const nestProcess = fork(serverPath, {
-    stdio: ['ipc', 'inherit', 'inherit'],
-    detached: true,
-    windowsHide: true,
-    env: envFile,
-});
+loadSettings().then((env) => {
 
-// Handle errors from the child process
-nestProcess.on('error', (err) => {
-    console.error('Failed to start NestJS server process:', err);
-});
+    // Spawn NestJS server process
+    const nestProcess = fork(serverPath, ['child'], { env });
 
-// Handle exit of the child process
-nestProcess.on('exit', (code, signal) => {
-    console.log(`NestJS server process exited with code ${code} and signal ${signal}`);
-});
+    // Handle errors from the child process
+    nestProcess.on('error', (err) => {
+        console.error('Failed to start NestJS server process:', err);
+    });
 
-nestProcess.on('close', (code) => {
-    console.log(`NestJS server process exited with code ${code}`);
-});
+    // Handle exit of the child process
+    nestProcess.on('exit', (code, signal) => {
+        console.log(`NestJS server process exited with code ${code} and signal ${signal}`);
+    });
 
-// Quit when all windows are closed, except on macOS. There, it's common
-// for applications and their menu bar to stay active until the user quits
-// explicitly with Cmd + Q.
-app.on('window-all-closed', () => {
-    if (process.platform !== 'darwin') app.quit()
-});
+    nestProcess.on('close', (code) => {
+        console.log(`NestJS server process exited with code ${code}`);
+    });
 
-app.on('will-quit', () => {
-    nestProcess.kill();
+    // Quit when all windows are closed, except on macOS. There, it's common
+    // for applications and their menu bar to stay active until the user quits
+    // explicitly with Cmd + Q.
+    app.on('window-all-closed', () => {
+        if (process.platform !== 'darwin') app.quit()
+    });
+
+    app.on('will-quit', () => {
+        nestProcess.kill();
+    });
+
 });
