@@ -1,3 +1,4 @@
+
 ## Requirements:
 
 Bitcoin Node with the following configuration:
@@ -37,8 +38,14 @@ Bitcoin Node with the following configuration:
 
 1. Run Installer .exe
 
-2. Navigate to C:\Users\username\AppData\Local\public_pool_app\app-1.0.0\resources
+2. Open settings.json in a test editor. I will be found at:
 
-3. Edit settings.json to match the IP address of your Bitcoin Node, Username and password
+    **Windows:** %APPDATA%/public-pool-app/
+   
+    **macOS:** ~/Library/Application Support/public-pool-app/
+   
+    **Linux:** ~/.config/public-pool-app/
 
-4. Start or Restart App
+4. Edit settings.json to match the IP address of your Bitcoin Node, Username and password
+
+5. Start or Restart App
