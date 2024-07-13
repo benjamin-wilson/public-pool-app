@@ -7,7 +7,7 @@ if (require('electron-squirrel-startup')) {
 }
 
 // Modules to control application life and create native browser window
-const { spawn } = require('child_process');
+const { fork } = require('child_process');
 const { BrowserWindow } = require('electron');
 const fs = require('fs');
 
@@ -35,7 +35,7 @@ const createWindow = () => {
 app.whenReady().then(() => {
     setTimeout(() => {
         createWindow();
-      }, 3000);
+    }, 3000);
 
     app.on('activate', () => {
         // On macOS it's common to re-create a window in the app when the
@@ -59,12 +59,21 @@ var envFile = JSON.parse(fs.readFileSync(evnFilePath, 'utf8'));
 
 
 // Spawn NestJS server process
-const nestProcess = spawn('node', [serverPath], {
-    stdio: ['inherit', fs.openSync('server.log', 'a'), fs.openSync('server.log', 'a')],
+const nestProcess = fork(serverPath, {
+    stdio: ['ipc', 'inherit', 'inherit'],
     detached: true,
     windowsHide: true,
     env: envFile,
+});
 
+// Handle errors from the child process
+nestProcess.on('error', (err) => {
+    console.error('Failed to start NestJS server process:', err);
+});
+
+// Handle exit of the child process
+nestProcess.on('exit', (code, signal) => {
+    console.log(`NestJS server process exited with code ${code} and signal ${signal}`);
 });
 
 nestProcess.on('close', (code) => {

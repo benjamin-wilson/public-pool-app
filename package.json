@@ -8,7 +8,6 @@
     "download": "git clone https://github.com/benjamin-wilson/public-pool.git && git clone https://github.com/benjamin-wilson/public-pool-ui.git",
     "install": "cd public-pool && npm install && cd ../public-pool-ui && npm install",
     "build": "cd public-pool && npm run build && npm prune --production && cd ../public-pool-ui && npm run build:electron",
-    "package": "electron-forge package",
     "make": "electron-forge make"
   },
   "author": "Benjamin Wilson",
