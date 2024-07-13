@@ -15,6 +15,7 @@ const settings = require('electron-settings');
 
 
 const path = require("path");
+const { electron } = require('process');
 const createWindow = () => {
     // Create the browser window.
     const mainWindow = new BrowserWindow({
@@ -47,7 +48,6 @@ app.whenReady().then(() => {
     })
 })
 
-console.log(process.resourcesPath)
 
 const serverPath = app.isPackaged ?
     path.join(process.resourcesPath, 'dist', 'main.js')
@@ -61,10 +61,11 @@ const serverPath = app.isPackaged ?
 // var envFile = JSON.parse(fs.readFileSync(evnFilePath, 'utf8'));
 
 const loadSettings = async () => {
-    settings.configure({prettify: true});
+    settings.configure({ prettify: true });
+    console.log(app.getPath('userData'));
     try {
         const envFile = await settings.get('env');
-        if(envFile == null){
+        if (envFile == null) {
             const defaultEnv = {
                 BITCOIN_RPC_URL: 'http://192.168.1.49',
                 BITCOIN_RPC_USER: '',
@@ -72,10 +73,10 @@ const loadSettings = async () => {
                 BITCOIN_RPC_PORT: '8332',
                 BITCOIN_RPC_TIMEOUT: '10000',
                 BITCOIN_RPC_COOKIEFILE: '',
-            
+
                 API_PORT: '3334',
                 STRATUM_PORT: '3333',
-            
+
                 NETWORK: 'mainnet',
                 'API_SECURE': false
             };
