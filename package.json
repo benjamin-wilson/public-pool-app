@@ -1,6 +1,6 @@
 {
   "name": "public-pool-app",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Electron Bitcoin Server And GUI",
   "main": "main.js",
   "scripts": {
