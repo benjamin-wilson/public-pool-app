@@ -10,6 +10,12 @@ const { fork } = require('child_process');
 const { BrowserWindow } = require('electron');
 const settings = require('electron-settings');
 const path = require("path");
+const log = require('electron-log/main');
+
+
+log.initialize();
+
+Object.assign(console, log.functions);
 
 const createWindow = () => {
     // Create the browser window.
@@ -31,6 +37,9 @@ const createWindow = () => {
 
 
 app.whenReady().then(() => {
+    setTimeout(() => {
+        createWindow();
+    }, 3000);
     app.on('activate', () => {
         // On macOS it's common to re-create a window in the app when the
         // dock icon is clicked and there are no other windows open.
@@ -40,15 +49,16 @@ app.whenReady().then(() => {
     })
 })
 
+
 const serverPath = app.isPackaged ?
     path.join(process.resourcesPath, 'dist', 'main.js')
     : path.join(__dirname, 'public-pool', 'dist', 'main.js');
 
 const loadSettings = async () => {
-    settings.configure({prettify: true});
+    settings.configure({ prettify: true });
     try {
         const envFile = await settings.get('env');
-        if(envFile == null){
+        if (envFile == null) {
             const defaultEnv = {
                 BITCOIN_RPC_URL: 'http://192.168.1.49',
                 BITCOIN_RPC_USER: '',
@@ -90,17 +100,14 @@ loadSettings().then((env) => {
         console.log(`NestJS server process exited with code ${code}`);
     });
 
-    nestProcess.on('spawn', () =>{
-        createWindow();
-    });
 
     // Quit when all windows are closed, except on macOS. There, it's common
     // for applications and their menu bar to stay active until the user quits
     // explicitly with Cmd + Q.
     app.on('window-all-closed', () => {
-        if (process.platform !== 'darwin'){
+        if (process.platform !== 'darwin') {
             app.quit();
-        } 
+        }
     });
 
     app.on('will-quit', () => {
