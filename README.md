@@ -1,38 +1,25 @@
 
 ## Requirements:
 
-Bitcoin Node with the following configuration:
+Bitcoin Node with the following configuration (bitcoin.conf):
 
-**#Enable RPC server**
-
+    #Enable RPC server
     server=1
-
- **#Bind to the specific IP address or interface (default: 127.0.0.1)**
-
+    #Bind to the specific IP address or interface (default: 127.0.0.1)
     rpcbind=127.0.0.1
-
-**# Allow connections from specific IP address(es) (can be repeated as needed)**
-
+    # Allow connections from specific IP address(es) (can be repeated as needed)
     rpcallowip=192.168.1.0/24
-
-**# RPC username and password**
-
+    # RPC username and password
     rpcuser=yourrpcusername
     rpcpassword=yourrpcpassword
-
-**# RPC port (default: 8332)**
-
+    # RPC port (default: 8332)
     rpcport=8332
- **# Enable ZMQ publishing**
-
+    # Enable ZMQ publishing
      zmqpubrawblock=tcp://0.0.0.0:28332
-
- **# Mining Optimizations**
-
+    # Mining Optimizations**
     maxmempool=1000
     blockreconstructionextratxn=1000000
     mempoolfullrbf=1
-
     
 ## Installation and Setup
 
