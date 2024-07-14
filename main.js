@@ -1,12 +1,11 @@
 // main.js
-const { app } = require('electron');
+const { app, utilityProcess  } = require('electron');
 // run this as early in the main process as possible
 if (require('electron-squirrel-startup')) {
     app.quit();
     return;
 }
 // Modules to control application life and create native browser window
-const { fork } = require('child_process');
 const { BrowserWindow } = require('electron');
 const settings = require('electron-settings');
 const path = require("path");
@@ -47,12 +46,54 @@ app.whenReady().then(() => {
             createWindow();
         }
     })
+
+    loadSettings().then((env) => {
+
+        const serverPath = app.isPackaged ?
+        path.join(process.resourcesPath, 'dist', 'main.js')
+        : path.join(__dirname, 'public-pool', 'dist', 'main.js');
+
+        Object.assign(process.env, env)
+
+        const nestProcess = utilityProcess.fork(serverPath);
+    
+        // nestProcess.stderr.on('data', function(data) {
+        //     console.log('stdout: ' + data);
+        // });
+    
+    
+        // Handle errors from the child process
+        nestProcess.on('error', (err) => {
+            console.error('Failed to start NestJS server process:', err);
+        });
+    
+        // Handle exit of the child process
+        nestProcess.on('exit', (code, signal) => {
+            console.log(`NestJS server process exited with code ${code} and signal ${signal}`);
+        });
+    
+        nestProcess.on('close', (code) => {
+            console.log(`NestJS server process exited with code ${code}`);
+        });
+    
+    
+        // Quit when all windows are closed, except on macOS. There, it's common
+        // for applications and their menu bar to stay active until the user quits
+        // explicitly with Cmd + Q.
+        app.on('window-all-closed', () => {
+            if (process.platform !== 'darwin') {
+                app.quit();
+            }
+        });
+    
+        app.on('will-quit', () => {
+            nestProcess.kill();
+        });
+    
+    });
 })
 
 
-const serverPath = app.isPackaged ?
-    path.join(process.resourcesPath, 'dist', 'main.js')
-    : path.join(__dirname, 'public-pool', 'dist', 'main.js');
 
 const loadSettings = async () => {
     settings.configure({ prettify: true });
@@ -81,37 +122,3 @@ const loadSettings = async () => {
     }
 }
 
-loadSettings().then((env) => {
-
-    // Spawn NestJS server process
-    const nestProcess = fork(serverPath, { env });
-
-    // Handle errors from the child process
-    nestProcess.on('error', (err) => {
-        console.error('Failed to start NestJS server process:', err);
-    });
-
-    // Handle exit of the child process
-    nestProcess.on('exit', (code, signal) => {
-        console.log(`NestJS server process exited with code ${code} and signal ${signal}`);
-    });
-
-    nestProcess.on('close', (code) => {
-        console.log(`NestJS server process exited with code ${code}`);
-    });
-
-
-    // Quit when all windows are closed, except on macOS. There, it's common
-    // for applications and their menu bar to stay active until the user quits
-    // explicitly with Cmd + Q.
-    app.on('window-all-closed', () => {
-        if (process.platform !== 'darwin') {
-            app.quit();
-        }
-    });
-
-    app.on('will-quit', () => {
-        nestProcess.kill();
-    });
-
-});
